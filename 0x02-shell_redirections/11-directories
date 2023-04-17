@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lR | grep ^d | wC -l
+find . -type d -not -name ' ' | wC -l
